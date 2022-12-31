@@ -1,0 +1,14 @@
+{
+  "name": "Weather",
+  "description": "Show Current Weather",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "weather.html",
+    "default_icon": "weather.png"
+  },
+  "permissions": ["geolocation"],
+  "icons": {
+    "128": "weather.png"
+  }
+}
